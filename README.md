@@ -22,3 +22,8 @@ git commit -m "COMMIT MESSAGE"
 git log : look at the commit history
 git log --oneline : simple one line log view
 git diff : look at differences between current state and what git knows
+git remote: a place where git repo is stored
+git remote add origin <URL> : add a remote
+git push origin master : to push the master branch on local computer to 
+	the remote repo
+
