@@ -19,4 +19,6 @@ git add "FILE" : adds a file or file version to staging area from where
 git commit : commits file(s) in staging to the repository with a message
 git commit -m "COMMIT MESSAGE"
 	-allows addition of simple commit message w/o using editor
-
+git log : look at the commit history
+git log --oneline : simple one line log view
+git diff : look at differences between current state and what git knows
