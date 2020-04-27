@@ -1,4 +1,4 @@
-#2020-04-27
+# 2020-04-27: Git Lesson
 
 SETUP
 git config --global user.name "USERNAME" to set global username
@@ -21,6 +21,7 @@ git commit -m "COMMIT MESSAGE"
 	-allows addition of simple commit message w/o using editor
 git checkout : moving HEAD in history
 	checkout <hash> <file>
+	checkout <HASH> : moves HEAD to that location
 git log : look at the commit history
 git log --oneline : simple one line log view
 git diff : look at differences between current state and what git knows
